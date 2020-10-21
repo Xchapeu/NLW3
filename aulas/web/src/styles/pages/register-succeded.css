@@ -1,0 +1,57 @@
+#page-register-succeded {
+    min-height: 100vh;
+    background: #37C77F;
+}
+
+#page-register-succeded main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-register-succeded main .container {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-right: 70px;
+
+}
+
+#page-register-succeded main .container h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#page-register-succeded main .container p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#page-register-succeded main .container a {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: #31B272;
+    width: 243px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #FFF;
+
+    transition: background-color .4s;
+}
+
+#page-register-succeded main .container a:hover {
+    background-color: #3BD689;
+} 
+
+#page-register-succeded main img {
+    margin-top: 50px;
+    width: 400px;
+    height: 490px;
+}
